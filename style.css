@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    width: 100%;
+}
+aside {
+    height: 100vh;
+    background-color: #FFC0CB;
+    width: 25%;
+}
+
+.container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main  {
+    background-color: #FFC0CB;
+    height: 100vh;
+    width: 100%;
+}
+
+.personal-photo {
+    border-radius: 50%
+}
+
+.navbar {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line {
+    border-right:2px solid #000;
+    height:90%;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor-icons {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+}
+
+.navbuttons button{
+    margin-top: 10px;
+    background-color: #3B252C; 
+    color: #3B252C; 
+    padding: 15px 50px; 
+    cursor: pointer; 
+    width: 100%; 
+    display: block; 
+    border: 3px solid #3B252C;
+    background-image: -webkit-linear-gradient(30deg, #FFC0CB 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #FFC0CB 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+
+}
+
+.navbuttons button:hover {
+    background-position: 100%;
+    color: #FFC0CB;
+}
+
+
+.perfil-image {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.icons i {
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.section-icons {
+    margin-top: 20%;
+}
+
+.line {
+    width: 80%;
+    border: 1.8px solid black;
+}
+
+.aboutMe:target {
+    display: block;
+}
+
+.text-zone {
+    padding: 9rem 3rem;
+}
+
+.title
+{
+    width: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.text {
+    width: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+
+}
+
+.experience {
+    margin-top: 10%;
+}
+
+.experience-ecomp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-experience {
+    width: 50%;
+}
+
+.experience-madeira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-language {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages {
+    margin: 2%;
+}
+
+.titulo-empresas {
+    font-size: 2.5em;
+}
+
+.texts-experience {
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+    width:40%
+}
